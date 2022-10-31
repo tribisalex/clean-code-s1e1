@@ -38,14 +38,14 @@ body {
   display: flex;
 }
 .todo-ul {
-  margin:0;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 .todo-li, .todo-h3 {
-  list-style:none;
+  list-style: none;
 }
 .input,.button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -137,14 +137,14 @@ body {
 
 /* Edit Task */
 .todo-ul .todo-li .text-input {
-  display:none;
+  display: none;
 }
 
 .todo-ul .todo-li.editMode .text-input {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .todo-ul .todo-li.editMode .label {
-  display:none;
+  display: none;
 }
