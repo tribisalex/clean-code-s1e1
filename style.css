@@ -4,25 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.eisenhower-matrix {
+.matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.eisenhower-matrix img {
+.matrix img {
   width: 100%;
 }
-.eisenhower-matrix .eisenhower-matrix-more {
+.matrix .matrix-more {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .eisenhower-matrix {
+  .matrix {
     text-align: center;
   }
 }
-.todo-list-wrapper {
+.todo-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -118,12 +118,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px;
 }
-button.button-delete img {
+button.button-del img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.button-delete img:hover {
+button.button-del img:hover {
   transform: rotateZ(0);
 }
 
