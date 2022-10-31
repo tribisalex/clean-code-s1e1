@@ -41,10 +41,12 @@ body {
   margin: 0;
   padding: 0;
 }
-.todo-li, .todo-h3 {
+.todo-li,
+.todo-h3 {
   list-style: none;
 }
-.input,.button{
+.input,
+.button {
   outline: none;
 }
 .button {
